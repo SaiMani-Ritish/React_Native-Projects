@@ -35,10 +35,10 @@ const App = () => {
 
         <Text style={styles.subheading}>Depth of Study (6 Credits)</Text>
         <Text style={styles.course}>CS 624: Full-Stack Development - Mobile App</Text>
-        <Text style={styles.course}>CS 625: Full-Stack Development - Web App</Text>
+        <Text style={styles.course}>CS 628: Full-Stack Development - Web App</Text>
 
         <Text style={styles.subheading}>Capstone</Text>
-        <Text style={styles.course}>CS 690</Text>
+        <Text style={styles.course}>CS 690: Capstone Project</Text>
       </ScrollView>
     </View>
   );
