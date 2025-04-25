@@ -15,11 +15,11 @@ const Input = ({ inputValue, inputChange }) => (
 
 const styles = StyleSheet.create({
   inputContainer: {
+    backgroundColor:" #f5f5f5",
     marginLeft: 20,
     marginRight: 20,
     shadowOpacity: 0.2,
     shadowRadius: 3,
-    shadowColor: '#000000',
     shadowOffset: {width: 2, height: 2},
   },
   input: {

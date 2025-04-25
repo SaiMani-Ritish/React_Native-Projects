@@ -10,10 +10,11 @@ const Heading = () => (
 const styles = StyleSheet.create({
   header: {
     marginTop: 80,
+    backgroundColor: '#f5f5f5',
   },
   headerText: {
     textAlign: 'center',
-    fontSize: 22,
+    fontSize: 88,
     color: 'rgba(175, 47, 47, 0.25)',
     fontWeight: '100'
   }
