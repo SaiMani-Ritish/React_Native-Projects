@@ -2,7 +2,7 @@
 
 ### Input
 
-The user types a task in the text box. Every time the user writes, the input is reflected instantly through the usage of React Native's controlled component logic. The moment we hit the "Add" button, then the value of the input is processed and stored.
+The user types a task in the text box. Every time the user writes, the input is reflected instantly through the usage of React Native's controlled component logic. The moment we hit the "Add" button, the value of the input is processed and stored.
 
 ### Process
 
