@@ -1,16 +1,13 @@
 ## PE03 – Todos App
 
 ### Input
-
-The user types a task in the text box. Every time the user writes, the input is reflected instantly through the usage of React Native's controlled component logic. The moment we hit the "Add" button, the value of the input is processed and stored.
+The user can interact with the app to manage their tasks. The text input field is used to enter a new task to the list, and the submit button will add the task to the list. Every to-do has a Title and "Done" and "Delete" buttons. There is also a tab bar at the bottom with All, Active, and Complete filtering options, and users are able to view these tasks based on their status.
 
 ### Process
-
-This application is using a class-based React Native component. This is having an internal state with 'inputValue' and an array named 'todos'. When the "Add" button is clicked, the application is going to checks if the input is not empty, adds a new todo object with 'completed: false', and adds it to the 'todos' array using 'setState'. The todo is also logged to the terminal using 'console.log'.
+When the user enters a task and clicks "Submit", the app stores it in the local state and logs to the console. Each task is an object of title and complete status. "Done" button toggles the completion status, and "Delete" removes the task. The tab bar updates the UI based on the selected filter by setting conditions to show all, completed, or pending tasks.
 
 ### Output
-
-These new todos are then rendered as a list of '<Text>' items on the screen. Each item entered by the user is displayed in the list as soon as it is entered, and the same text also gets printed to the terminal console as a log for verification. The user interface includes a heading, an input box, an "Add" button, and a list of todos displayed below.
+The task list is presented as a styled scroll view. Finished tasks are filtered. Based on the active filter tab, the UI will update dynamically to show the relevant tasks. Actions like add or remove are immediately reflected in the interface and printed to the terminal for both functional interactivity and developer visibility in testing.
 
 ## Get started
 
