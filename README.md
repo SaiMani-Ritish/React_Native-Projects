@@ -43,3 +43,16 @@ When the user enters a task and clicks "Submit", the app stores it in the local 
 
 ### Output
 The task list is presented as a styled scroll view. Finished tasks are filtered. Based on the active filter tab, the UI will update dynamically to show the relevant tasks. Actions like add or remove are immediately reflected in the interface and printed to the terminal for both functional interactivity and developer visibility in testing.
+
+## PE04 – Profile Cards
+
+### Input
+There is no user input for this app, it displays a static dataset using 'Array.from({ length: 6 })'. They are all profile cards. The preset input to the `ProfileCard` is the user image, the name, the role, and the bio content hardcoded within the component.
+
+### Process
+The app displays a grid of profile cards, and each card is a React Native element that is wrapped in `Animated.View`. Upon clicking the card, the `handleCardPress` method will change to its expanded state. That calls an animation with `Animated.timing`.
+
+### Output
+The app will display six animated profile cards in the form of a responsive two-column grid. One active card will animate up in size after clicking, and clicking again will reduce it.
+
+
