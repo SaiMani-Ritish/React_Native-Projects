@@ -1,7 +1,7 @@
 # PE05 – Cities with Countries and Currency
 
 ## Input
-- User can enter a city name and add the country name to it.
+- The user can enter a city name and add the country name to it.
 - Also user can input a country name and its currency in the AddCountry tab.
 
 ## Process
