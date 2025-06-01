@@ -19,6 +19,7 @@ As for the output, the application will display the information of my name, prog
 - City University of Seattle
 
 The output is viewed on the web or in the 'Expo Go' mobile application.
+---
 
 ## PE02 - Core Components 
 MSCS Courses
@@ -31,7 +32,7 @@ I built this app using a functional component written with an arrow function. It
 
 ### Output
 The app displays an image, a title, an input field, and a scrollable list of MSCS courses. The user’s input is shown on the screen. I walked around with the internal styles used for layout, spacing, and colors to make the UI visually clear.
-
+---
 
 ## PE03 – Todos App
 
@@ -43,6 +44,7 @@ When the user enters a task and clicks "Submit", the app stores it in the local 
 
 ### Output
 The task list is presented as a styled scroll view. Finished tasks are filtered. Based on the active filter tab, the UI will update dynamically to show the relevant tasks. Actions like add or remove are immediately reflected in the interface and printed to the terminal for both functional interactivity and developer visibility in testing.
+---
 
 ## PE04 – Profile Cards
 
@@ -54,5 +56,28 @@ The app displays a grid of profile cards, and each card is a React Native elemen
 
 ### Output
 The app will display six animated profile cards in the form of a responsive two-column grid. One active card will animate up in size after clicking, and clicking again will reduce it.
+---
+
+## PE05 – Cities with Countries and Currency
+
+### Input
+- User can enter a city name and add the country name to it.
+- Also user can input a country name and its currency in the AddCountry tab.
+
+### Process
+- Cities and locations are stored in component state using `this.state.cities`.
+- Similarly, countries and their currencies are added to `this.state.countries`.
+- React Navigation will manage the navigation between tabs:
+  - `CitiesNav`: stack for viewing cities and their country
+  - `AddCity`: for adding a new city
+  - `AddCountry`: to add a new country
+  - `Countries`: to show all added countries
+
+### Output
+- The `Cities` screen will display the list of cities and countries.
+- The `AddCity` screen is used to add a new city.
+- The `AddCountry` screen lets users add countries and currencies.
+- The `Countries` screen lists the country name and currency as output.
+
 
 
