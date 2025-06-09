@@ -78,6 +78,19 @@ The app will display six animated profile cards in the form of a responsive two-
 - The `AddCity` screen is used to add a new city.
 - The `AddCountry` screen lets users add countries and currencies.
 - The `Countries` screen lists the country name and currency as output.
+  
+
+## PE05 – Cities with Countries and Currency
+
+### Input
+The user can add countries through the AddCountry tab or select a country from the Countries list.
+
+### Process
+The app uses bottom tab navigation for major sections and stack navigation for navigating between countries and their detailed information. Selecting a country triggers navigation and data transfer using route parameters.
+
+### Output
+The Countries tab displays a list of countries. When the user taps a country, the app displays the name, currency, and whether it is currently used in the country. All navigation and screens are handled using stack-based navigators for a better user experience.
+
 
 
 
