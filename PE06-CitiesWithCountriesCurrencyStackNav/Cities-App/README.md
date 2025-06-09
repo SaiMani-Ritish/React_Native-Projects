@@ -1,23 +1,14 @@
-# PE05 – Cities with Countries and Currency
+# PE06 – Cities with Countries and Currency with Nav
 
 ## Input
-- The user can enter a city name and add the country name to it.
-- Also user can input a country name and its currency in the AddCountry tab.
+The user can add countries through the AddCountry tab or select a country from the Countries list.
 
 ## Process
-- Cities and locations are stored in component state using `this.state.cities`.
-- Similarly, countries and their currencies are added to `this.state.countries`.
-- React Navigation will manage the navigation between tabs:
-  - `CitiesNav`: stack for viewing cities and their country
-  - `AddCity`: for adding a new city
-  - `AddCountry`: to add a new country
-  - `Countries`: to show all added countries
+The app uses bottom tab navigation for major sections and stack navigation for navigating between countries and their detailed information. Selecting a country triggers navigation and data transfer using route parameters.
 
 ## Output
-- The `Cities` screen will display the list of cities and countries.
-- The `AddCity` screen is used to add a new city.
-- The `AddCountry` screen lets users add countries and currencies.
-- The `Countries` screen lists the country name and currency as output.
+The Countries tab displays a list of countries. When the user taps a country, the app displays the name, currency, and whether it is currently used in the country. All navigation and screens are handled using stack-based navigators for a better user experience.
+
 
 ## Get started
 
