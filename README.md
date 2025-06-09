@@ -80,7 +80,7 @@ The app will display six animated profile cards in the form of a responsive two-
 - The `Countries` screen lists the country name and currency as output.
   
 
-## PE05 – Cities with Countries and Currency
+## PE06 – Cities with Countries and Currency With Nav
 
 ### Input
 The user can add countries through the AddCountry tab or select a country from the Countries list.
