@@ -1,4 +1,4 @@
-# CS624-PE-Sai_Mani_Ritish
+# React Native Projects
 
 ## PE01 - Hello World
 
