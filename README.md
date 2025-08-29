@@ -1,6 +1,6 @@
 # React Native Projects
 
-## PE01 - Hello World
+## 1 - Hello World
 
 ### Input
 
@@ -21,7 +21,7 @@ As for the output, the application will display the information of my name, prog
 The output is viewed on the web or in the 'Expo Go' mobile application.
 
 
-## PE02 - Core Components 
+## 2 - Core Components 
 MSCS Courses
 
 ### Input
@@ -34,7 +34,7 @@ I built this app using a functional component written with an arrow function. It
 The app displays an image, a title, an input field, and a scrollable list of MSCS courses. The user’s input is shown on the screen. I walked around with the internal styles used for layout, spacing, and colors to make the UI visually clear.
 
 
-## PE03 – Todos App
+## 3 – Todos App
 
 ### Input
 The user can interact with the app to manage their tasks. The text input field is used to enter a new task to the list, and the submit button will add the task to the list. Every to-do has a Title and "Done" and "Delete" buttons. There is also a tab bar at the bottom with All, Active, and Complete filtering options, and users are able to view these tasks based on their status.
@@ -46,7 +46,7 @@ When the user enters a task and clicks "Submit", the app stores it in the local 
 The task list is presented as a styled scroll view. Finished tasks are filtered. Based on the active filter tab, the UI will update dynamically to show the relevant tasks. Actions like add or remove are immediately reflected in the interface and printed to the terminal for both functional interactivity and developer visibility in testing.
 
 
-## PE04 – Profile Cards
+## 4 – Profile Cards
 
 ### Input
 There is no user input for this app, it displays a static dataset using 'Array.from({ length: 6 })'. They are all profile cards. The preset input to the `ProfileCard` is the user image, the name, the role, and the bio content hardcoded within the component.
@@ -58,7 +58,7 @@ The app displays a grid of profile cards, and each card is a React Native elemen
 The app will display six animated profile cards in the form of a responsive two-column grid. One active card will animate up in size after clicking, and clicking again will reduce it.
 
 
-## PE05 – Cities with Countries and Currency
+## 5 – Cities with Countries and Currency
 
 ### Input
 - User can enter a city name and add the country name to it.
@@ -80,7 +80,7 @@ The app will display six animated profile cards in the form of a responsive two-
 - The `Countries` screen lists the country name and currency as output.
   
 
-## PE06 – Cities with Countries and Currency With Nav
+## 6 – Cities with Countries and Currency With Nav
 
 ### Input
 The user can add countries through the AddCountry tab or select a country from the Countries list.
