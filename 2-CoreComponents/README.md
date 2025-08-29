@@ -1,4 +1,4 @@
-## PE02 - Core Components 
+## 2 - Core Components 
 MSCS Courses
 
 ### Input

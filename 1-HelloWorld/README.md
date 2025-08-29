@@ -1,6 +1,4 @@
-# CS624-PE-Sai_Mani_Ritish
-
-## PE01 - Hello World
+## 1 - Hello World
 
 ### Input
 
