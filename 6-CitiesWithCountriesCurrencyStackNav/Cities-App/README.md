@@ -1,4 +1,4 @@
-# PE06 – Cities with Countries and Currency with Nav
+# 6 – Cities with Countries and Currency with Nav
 
 ## Input
 The user can add countries through the AddCountry tab or select a country from the Countries list.

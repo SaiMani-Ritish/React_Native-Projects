@@ -1,4 +1,4 @@
-# PE05 – Cities with Countries and Currency
+# 5 – Cities with Countries and Currency
 
 ## Input
 - The user can enter a city name and add the country name to it.
